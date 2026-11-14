@@ -1,0 +1,98 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependencies and package-manager files
+node_modules/
+node_modules.bun
+jspm_packages/
+web_modules/
+bower_components/
+.pnpm-store
+.pnp.*
+.yarn-integrity
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.npm
+
+# Build output
+build/Release
+/build
+dist
+.next
+out
+.nuxt
+.output
+.vuepress/dist
+.svelte-kit/
+**/.vitepress/dist
+.docusaurus
+.serverless/
+
+# Tool caches and generated files
+lib-cov
+coverage
+*.lcov
+.nyc_output
+.grunt
+.eslintcache
+.stylelintcache
+.node_repl_history
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.cache
+.parcel-cache
+.fusebox/
+.dynamodb/
+.firebase/
+.tern-port
+.vscode-test
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+.vite/
+.vitepress/cache
+.astro/
+.turbo
+
+# TypeScript
+*.tsbuildinfo
+typings/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Temporary files
+.temp
+.tmp
+/tmp
+
+# Other generated files
+.lock-wscript
+*.tgz
+package-json.lock
+*.sqlite
+
+/.agent
+/.agents
